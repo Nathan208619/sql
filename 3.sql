@@ -1,0 +1,4 @@
+SELECT Fname, Minit, Lname
+FROM EMPLOYEE
+ORDER BY Salary DESC
+LIMIT 1;
