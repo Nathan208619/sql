@@ -1,0 +1,3 @@
+SELECT Dname
+FROM DEPARTMENT D, DEPT_LOCATIONS L
+WHERE Dlocation='Houston' AND D.Dnumber=L.Dnumber;

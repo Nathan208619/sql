@@ -1,0 +1,8 @@
+SELECT Fname, Minit, Lname
+FROM EMPLOYEE
+WHERE Ssn IN
+(
+    SELECT Essn
+    FROM WORKS_ON
+    WHERE Pno=10
+);

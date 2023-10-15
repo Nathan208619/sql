@@ -1,0 +1,7 @@
+SELECT DISTINCT Dname
+FROM DEPARTMENT
+WHERE EXISTS
+(   SELECT Dname
+    FROM PROJECT
+    WHERE Dnum=Dnumber AND Plocation!='Stafford'
+);

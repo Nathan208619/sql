@@ -1,0 +1,3 @@
+SELECT Dname 
+FROM DEPARTMENT NATURAL JOIN DEPT_LOCATIONS
+Where Dlocation='Houston';

@@ -1,0 +1,3 @@
+SELECT Lname, Fname, Salary
+FROM EMPLOYEE
+ORDER BY Lname;

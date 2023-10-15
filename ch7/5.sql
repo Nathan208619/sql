@@ -1,4 +1,3 @@
 SELECT Fname, Minit, Lname
 FROM EMPLOYEE
-ORDER BY Salary DESC
-LIMIT 1;
+WHERE Minit IS NOT NULL

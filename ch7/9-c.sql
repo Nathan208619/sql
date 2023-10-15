@@ -1,0 +1,3 @@
+SELECT Pname, SUM(Hours)
+FROM PROJECT JOIN WORKS_ON ON (Pnumber=Pno)
+GROUP BY Pname;

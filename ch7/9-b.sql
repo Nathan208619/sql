@@ -1,0 +1,4 @@
+SELECT Pno, SUM(Hours)
+FROM WORKS_ON
+GROUP BY Pno
+HAVING SUM(Hours) >= 30;
