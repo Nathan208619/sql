@@ -1,0 +1,2 @@
+SELECT Fname, Lname, Salary + 50000 
+FROM EMPLOYEE;

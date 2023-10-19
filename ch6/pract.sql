@@ -1,3 +1,3 @@
 SELECT Lname, Fname, Salary
 FROM EMPLOYEE
-ORDER BY Lname;
+WHERE Fname LIKE 'J___';
