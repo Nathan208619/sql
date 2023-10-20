@@ -1,0 +1,3 @@
+My proposed assertion is to limit the working hours of an employee to fifty hours. There must be limitations on the number
+of hours an employee works every week. Fifty hours is an appropriate amount, it imposes necesary limitations while still
+allowing some overtime if necesary.
