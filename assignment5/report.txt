@@ -1,0 +1,7 @@
+My proposed check constraint is to constrain the birthday of employee to be a date prior to the first of January 2005 because this
+would ensure that no person under the age of 18 can be entered into the database as an employee. This constraint helps protect against
+potential hiring mistakes, and ensures that the company maintains responsible hiring practices.
+
+My proposed trigger is one that aligns with my check condition. If an insert or update to a database would alter an employees birthday
+to a date that would tell us they under the age of 18, then the action is rejected. This will maintain the constraints I want
+to place on the age of the employees that are allowed to work at the company.

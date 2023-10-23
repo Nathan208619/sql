@@ -1,3 +1,5 @@
-SELECT Lname, Fname, Salary
-FROM EMPLOYEE
-WHERE Fname LIKE 'J___';
+SELECT Fname, Lname, SUM(Hours)
+FROM EMPLOYEE, WORKS_ON
+WHERE Ssn=Essn
+GROUP BY Ssn
+HAVING SUM(Hours) > 35

@@ -1,0 +1,8 @@
+CREATE TRIGGER before_2005 
+BEFORE INSERT ON EMPLOYEE
+BEGIN
+   SELECT CASE
+    WHEN NEW.Bdate < '2005-01-01' THEN
+        RAISE(ABORT, 'Invalid Birthday')
+    END;
+END;

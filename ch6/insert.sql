@@ -1,0 +1,2 @@
+INSERT INTO EMPLOYEE VALUES('Nathan', 'R', 'Fout', '999999999', '2001-08-28', '828 Court St, Athens, OH', 'M', 
+100000000, '888665555', 1);
